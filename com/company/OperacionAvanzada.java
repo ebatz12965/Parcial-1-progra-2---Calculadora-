@@ -1,9 +1,10 @@
 package com.company;
 
 public class OperacionAvanzada {
-
+//objeto avanzada, para hacer uso de los métodos de la clase ObtencionDatos
     ObtencionDatos avanzada = new ObtencionDatos();
 
+    //Métodos de operaciones avanzadas
     public void raizCuadrada (){
         avanzada.obtenerDato();
         avanzada.resultado = Math.sqrt(avanzada.numero1);

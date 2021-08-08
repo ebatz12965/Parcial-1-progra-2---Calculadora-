@@ -3,6 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Menu {
+    //Objetos basica y avanzada para hacer el llamado de los métodos en el switch
     OperacionBasica basica = new OperacionBasica();
     OperacionAvanzada avanzada = new OperacionAvanzada();
     static int opcion;
@@ -10,7 +11,8 @@ public class Menu {
     Scanner indice = new Scanner(System.in);
     //ObtencionDatos object = new ObtencionDatos();
 
-
+/*generamos un menú con el uso de do/while y el switch para llamar a cada método los cuales están en las clases
+OperacionAvanzada y OperacionBascia*/
 public void menuDeOperaciones(){
     do{
         System.out.println(" OPERACIONES BASICAS ");

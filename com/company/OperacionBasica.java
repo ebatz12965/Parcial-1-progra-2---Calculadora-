@@ -1,9 +1,10 @@
 package com.company;
 
 public class OperacionBasica {
-
+    //objeto basica, para hacer uso de los métodos de la clase ObtencionDatos
     ObtencionDatos basica = new ObtencionDatos();
 
+    //Métodos de operaciones básicas
     public void sumar (){
         basica.obtenerDatos();
         this.basica.resultado = this.basica.numero1 + this.basica.numero2;
