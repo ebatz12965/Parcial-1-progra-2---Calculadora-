@@ -26,7 +26,7 @@ public void menuDeOperaciones(){
         System.out.println("7. Seno");
         System.out.println("8. Coseno");
         System.out.println("9. Tangente");
-        System.out.println("10. Salir \n");
+        System.out.println("10. Salir");
 
         System.out.println("Escribe una de las opciones\n");
         opcion = indice.nextInt();
