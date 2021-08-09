@@ -15,18 +15,18 @@ public class Menu {
 OperacionAvanzada y OperacionBascia*/
 public void menuDeOperaciones(){
     do{
-        System.out.println(" OPERACIONES BASICAS ");
+        System.out.println(" ¡OPERACIONES BASICAS! ");
         System.out.println("1. Sumar");
         System.out.println("2. Restar");
         System.out.println("3. Multiplicar");
         System.out.println("4. Dividir \n");
-        System.out.println(" OPERACIONES AVANZADAS ");
+        System.out.println(" ¡OPERACIONES AVANZADAS! ");
         System.out.println("5. Raíz cuadrada");
         System.out.println("6. Potencias");
         System.out.println("7. Seno");
         System.out.println("8. Coseno");
         System.out.println("9. Tangente");
-        System.out.println("10. Salir");
+        System.out.println("10. Salir \n");
 
         System.out.println("Escribe una de las opciones\n");
         opcion = indice.nextInt();
